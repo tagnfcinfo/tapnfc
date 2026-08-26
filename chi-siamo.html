@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chi Siamo | Il progetto TapNFC in Sicilia</title>
+<meta name="description" content="Scopri la storia di TapNFC: una soluzione nata in Sicilia per digitalizzare ristoranti, hotel e case vacanza con carte NFC eleganti e su misura.">
+<meta property="og:title" content="Chi Siamo | TapNFC">
+<meta property="og:description" content="Tecnologia NFC, design e ospitalità: la storia e la visione di TapNFC.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+<style>
+.about-hero{background:linear-gradient(135deg,#fbf8f2 0%,#eef1e8 100%);padding:90px 24px 80px;text-align:center}.about-hero h1{font-size:3rem;font-weight:700;max-width:760px;margin:0 auto 20px}.about-hero p{max-width:600px;margin:0 auto;color:var(--gray);font-size:1.05rem}.story{display:flex;gap:70px;align-items:center;max-width:1100px;margin:0 auto;padding:100px 24px}.story-text{flex:1}.story-text h2{font-size:2rem;margin-bottom:20px;font-weight:700}.story-text p{color:var(--gray);margin-bottom:18px;font-size:1rem}.story-visual{flex:0 0 390px;min-height:390px;display:flex;align-items:center;justify-content:center;position:relative}.card-deck{position:relative;width:360px;height:350px}.deck-card{position:absolute;width:190px;overflow:hidden;border:5px solid #fff;border-radius:18px;box-shadow:0 22px 45px rgba(0,0,0,.18);background:#fff;transition:transform .35s ease,z-index .2s}.deck-card img{width:100%;display:block}.deck-card.wifi{left:0;top:55px;transform:rotate(-12deg);z-index:1}.deck-card.menu{left:86px;top:0;transform:rotate(2deg);z-index:3}.deck-card.review{right:0;top:68px;transform:rotate(12deg);z-index:2;background:linear-gradient(135deg,#fff7e0,#fdeec2)}.deck-card:hover{transform:rotate(0deg) translateY(-12px) scale(1.05);z-index:10}.review-card{padding:0;text-align:center;color:#1a1a1a}.review-card img{width:100%;height:auto;display:block}.values-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;max-width:1100px;margin:0 auto}.value-card{text-align:center;padding:36px 26px;border-radius:20px;border:1.5px solid rgba(0,0,0,.07)}.value-card .num{font-family:'Playfair Display';font-size:1.6rem;color:var(--sage-dark);margin-bottom:12px;font-weight:700}.value-card h4{margin-bottom:10px;font-size:1.1rem;font-weight:600}.value-card p{color:var(--gray);font-size:.9rem}.timeline{max-width:750px;margin:0 auto;position:relative}.timeline::before{content:'';position:absolute;left:19px;top:8px;bottom:8px;width:2px;background:rgba(0,0,0,.08)}.timeline-item{display:flex;gap:24px;margin-bottom:40px;position:relative}.timeline-dot{width:40px;height:40px;border-radius:50%;background:var(--sage);color:white;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-weight:700;font-family:'Playfair Display';z-index:2}.timeline-content h4{margin-bottom:6px;font-size:1.05rem;font-weight:600}.timeline-content p{color:var(--gray);font-size:.9rem}@media (max-width:900px){.story{flex-direction:column;padding-top:70px}.story-visual{flex-basis:auto;width:100%;min-height:350px}.values-grid{grid-template-columns:1fr}}@media (max-width:480px){.card-deck{transform:scale(.82);margin:-35px}.story-visual{min-height:315px}}
+</style>
+</head>
+<body>
+<header>
+  <nav>
+    <div class="logo">
+      <div class="logo-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+          <path d="M9 22V12h6v10"/>
+        </svg>
+      </div>
+      TapNFC
+    </div>
+    <button class="mobile-toggle" aria-label="Apri menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="chi-siamo.html" class="active">Chi Siamo</a></li>
+      <li><a href="menu-digitale.html">Menu Digitale</a></li>
+      <li><a href="guest-wifi.html">Guest WiFi</a></li>
+      <li><a href="recensioni-google.html">Recensioni</a></li>
+      <li class="mobile-cta-item"><a href="index.html#contact" class="nav-cta">Richiedi preventivo</a></li>
+    </ul>
+    <a href="index.html#contact" class="nav-cta desktop-only">Richiedi preventivo</a>
+  </nav>
+</header>
+
+<section class="about-hero">
+  <div class="container">
+    <span class="eyebrow">Chi siamo</span>
+    <h1>Un'idea nata in Sicilia, pensata per l'ospitalità italiana</h1>
+    <p>TapNFC nasce dall'incontro tra tecnologia NFC, design e interesse per il settore ristorazione e hospitality, con l'obiettivo di rendere ogni tavolo, camera o banco d'accoglienza un punto di contatto digitale semplice ed elegante.</p>
+  </div>
+</section>
+
+<section class="story">
+  <div class="story-text">
+    <h2>La nostra storia</h2>
+    <p>Il progetto TapNFC parte da un'osservazione semplice: nei ristoranti, hotel e case vacanza italiane, i menu cartacei si consumano, il WiFi si comunica ancora a voce e le recensioni si perdono per strada. Serviva un oggetto fisico, elegante, che risolvesse tutto con un solo gesto: un tocco.</p>
+    <p>Da qui nasce l'idea di progettare carte NFC su misura, ciascuna programmata per uno scopo preciso — mostrare il menu, connettere al WiFi o raccogliere recensioni — e disegnata per integrarsi con l'estetica di ogni singola attività, non per sembrare un accessorio tecnologico fuori contesto.</p>
+    <p>Il progetto è stato sviluppato e testato a Solarino (Sr), con l'obiettivo di validare il modello su ristoranti, B&amp;B e case vacanza locali prima di scalarlo su tutto il territorio.</p>
+  </div>
+  <div class="story-visual">
+    <div class="card-deck">
+      <div class="deck-card wifi"><img src="images/HQ_WIFI_card.png" alt="Carta NFC Guest WiFi"></div>
+      <div class="deck-card menu"><img src="images/HQ_menu_fronte.png" alt="Carta NFC Menu Digitale"></div>
+      <div class="deck-card review"><div class="review-card"><img src="images/review_card_new.png" alt="Carta NFC per recensioni Google"></div></div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#faf8f4;">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">I nostri principi</span>
+      <h2>Cosa guida ogni carta che progettiamo</h2>
+    </div>
+    <div class="values-grid">
+      <div class="value-card">
+        <div class="num">01</div>
+        <h4>Semplicità d'uso</h4>
+        <p>Zero app e zero configurazioni per il cliente finale: un tocco e il servizio è pronto.</p>
+      </div>
+      <div class="value-card">
+        <div class="num">02</div>
+        <h4>Design su misura</h4>
+        <p>Ogni carta è pensata per integrarsi nell'estetica del locale.</p>
+      </div>
+      <div class="value-card">
+        <div class="num">03</div>
+        <h4>Affidabilità tecnica</h4>
+        <p>Ogni chip NFC viene programmato e testato prima della spedizione.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Il percorso</span>
+      <h2>Dal progetto pilota alla scalabilità</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot">1</div>
+        <div class="timeline-content">
+          <h4>Ricerca e prototipazione</h4>
+          <p>Studio delle specifiche hardware, scelta delle carte NFC e dei chip più adatti, primi test di programmazione.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot">2</div>
+        <div class="timeline-content">
+          <h4>Design dei primi tre servizi</h4>
+          <p>Sviluppo delle linee grafiche per Menu Digitale, Guest WiFi e Recensioni Google, coordinate ma distinte.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot">3</div>
+        <div class="timeline-content">
+          <h4>Progetto pilota</h4>
+          <p>Test con attività locali per validare workflow di programmazione, deploy delle pagine menu e raccolta feedback.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot">4</div>
+        <div class="timeline-content">
+          <h4>Scalabilità</h4>
+          <p>Automazione della generazione dei menu digitali e del deploy, per servire più attività in parallelo.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<a href="https://wa.me/393474763975?text=Ciao%20Carmelo,%20ho%20letto%20del%20progetto%20TapNFC%20e%20vorrei%20maggiori%20informazioni." target="_blank" rel="noopener noreferrer" class="floating-contact" aria-label="Contattaci su WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor">
+    <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.78 11.66c-.2-.1-.18-.09-1.07-.54-.89-.44-1.04-.54-1.18-.74-.15-.2-.05-.3.05-.44.1-.15.25-.3.35-.45.1-.15.15-.25.2-.4.05-.15 0-.3-.05-.4-.05-.1-.45-1.08-.62-1.48-.16-.39-.33-.34-.45-.34h-.39c-.13 0-.35.05-.53.25-.18.2-.7.68-.7 1.66s.72 1.92.82 2.05c.1.15 1.41 2.15 3.42 3.02.48.21.85.33 1.14.43.48.15.92.13 1.27.08.39-.06 1.19-.49 1.36-.96.17-.47.17-.88.12-.96-.05-.08-.18-.13-.38-.23z"/>
+  </svg>
+  <span>Chatta su WhatsApp</span>
+</a>
+
+<footer>
+  <div class="footer-logo">TapNFC</div>
+  <div class="footer-contact-info">
+    <span>Carmelo Barbagallo</span>
+    <span>·</span>
+    <a href="tel:+393474763975">📞 +39 347 476 3975</a>
+    <span>·</span>
+    <a href="mailto:tagnfc.info@gmail.com">✉️ tagnfc.info@gmail.com</a>
+  </div>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="chi-siamo.html">Chi Siamo</a>
+    <a href="menu-digitale.html">Menu Digitale</a>
+    <a href="guest-wifi.html">Guest WiFi</a>
+    <a href="recensioni-google.html">Recensioni</a>
+  </div>
+  <p>&copy; 2026 TapNFC · Solarino (SR), Sicilia</p>
+</footer>
+
+<script src="shared.js" defer></script>
+</body>
+</html>

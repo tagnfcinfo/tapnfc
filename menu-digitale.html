@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu Digitale NFC | TapNFC per Ristoranti e Locali</title>
+<meta name="description" content="Carte NFC per menu digitale al tavolo: aggiorna piatti, prezzi e allergeni in tempo reale. Zero app necessarie per i tuoi clienti.">
+<meta property="og:title" content="Menu Digitale NFC | TapNFC">
+<meta property="og:description" content="Il menu del tuo ristorante a portata di tocco con chip NFC integrato e design personalizzato.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+<style>
+.service-hero{background:linear-gradient(135deg,#fbf8f2,#eef1e8);padding:80px 24px 60px}.service-hero-inner{display:flex;align-items:center;gap:60px;max-width:1100px;margin:auto}.service-hero-text{flex:1}.service-hero-text .tag{display:inline-block;padding:6px 16px;border-radius:16px;background:rgba(26,26,26,.08);font-size:.78rem;font-weight:700;text-transform:uppercase;margin-bottom:20px}.service-hero-text h1{font-size:2.6rem;line-height:1.2;margin-bottom:20px}.service-hero-text p{color:var(--gray);font-size:1.05rem;margin-bottom:30px}.service-hero-visual{flex:0 0 420px}.menu-cards{display:flex;justify-content:center;align-items:center;gap:18px}.hero-card-mock{width:190px;border:5px solid #fff;border-radius:18px;overflow:hidden;box-shadow:0 25px 50px rgba(0,0,0,.2)}.hero-card-mock.front{transform:rotate(-4deg)}.hero-card-mock.back{transform:rotate(4deg);margin-top:28px}.hero-card-mock img{width:100%;display:block}.detail-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;max-width:1100px;margin:auto}.detail-card{padding:36px 28px;border-radius:20px;border:1px solid rgba(0,0,0,.08)}.detail-card .icon-circle{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(26,26,26,.08);margin-bottom:18px}.detail-card h4{margin-bottom:10px}.detail-card p{color:var(--gray);font-size:.9rem}.process-strip{background:#faf8f4;padding:90px 24px}.process-steps{display:flex;gap:24px;flex-wrap:wrap;max-width:1000px;margin:auto}.process-step{flex:1;min-width:180px;text-align:center}.step-num{width:48px;height:48px;border-radius:50%;background:rgba(26,26,26,.08);display:flex;align-items:center;justify-content:center;margin:0 auto 16px;font-family:'Playfair Display';font-weight:700}.price-box{max-width:520px;margin:auto;text-align:center;padding:45px 35px;border:1px solid rgba(0,0,0,.08);border-radius:24px}.price-box .amount{font:700 2.6rem 'Playfair Display';margin:12px 0 5px}.price-box .unit{color:var(--gray);font-size:.9rem;margin-bottom:28px}@media(max-width:900px){.service-hero-inner{flex-direction:column}.detail-grid{grid-template-columns:1fr}.service-hero-visual{flex-basis:auto}}@media(max-width:480px){.hero-card-mock{width:145px}.menu-cards{gap:7px}}
+</style>
+</head>
+<body>
+<header>
+  <nav>
+    <div class="logo">
+      <div class="logo-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+          <path d="M9 22V12h6v10"/>
+        </svg>
+      </div>
+      TapNFC
+    </div>
+    <button class="mobile-toggle" aria-label="Apri menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="chi-siamo.html">Chi Siamo</a></li>
+      <li><a class="active" href="menu-digitale.html">Menu Digitale</a></li>
+      <li><a href="guest-wifi.html">Guest WiFi</a></li>
+      <li><a href="recensioni-google.html">Recensioni</a></li>
+      <li class="mobile-cta-item"><a href="index.html#contact" class="nav-cta">Richiedi preventivo</a></li>
+    </ul>
+    <a href="index.html#contact" class="nav-cta desktop-only">Richiedi preventivo</a>
+  </nav>
+</header>
+
+<section class="service-hero">
+  <div class="service-hero-inner">
+    <div class="service-hero-text">
+      <span class="tag">Ristoranti &amp; Locali</span>
+      <h1>Il menu che appare con un tocco, sempre aggiornato</h1>
+      <p>Il cliente avvicina lo smartphone alla carta NFC e visualizza il menu digitale del locale: piatti, prezzi, allergeni e foto, senza scaricare nulla.</p>
+      <a href="index.html#contact" class="btn-primary">Richiedi preventivo</a>
+    </div>
+    <div class="service-hero-visual">
+      <div class="menu-cards">
+        <div class="hero-card-mock front">
+          <img src="images/HQ_menu_fronte.png" alt="Fronte carta NFC Menu">
+        </div>
+        <div class="hero-card-mock back">
+          <img src="images/HQ_menu-retro.png" alt="Retro carta NFC Menu">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Perché funziona</span>
+      <h2>Un menu sempre corretto, senza ristampe</h2>
+      <p>Meno errori, meno costi di stampa, più controllo.</p>
+    </div>
+    <div class="detail-grid">
+      <div class="detail-card">
+        <div class="icon-circle">✎</div>
+        <h4>Aggiornamenti istantanei</h4>
+        <p>Cambi un piatto o un prezzo online senza ristampare le carte.</p>
+      </div>
+      <div class="detail-card">
+        <div class="icon-circle">▣</div>
+        <h4>Design coordinato</h4>
+        <p>Font, colori e layout seguono l'identità del tuo locale.</p>
+      </div>
+      <div class="detail-card">
+        <div class="icon-circle">⌁</div>
+        <h4>Nessuna app richiesta</h4>
+        <p>Il menu si apre direttamente nel browser dello smartphone.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="process-strip">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Come si attiva</span>
+      <h2>Dalla carta al tavolo, in 4 passaggi</h2>
+    </div>
+    <div class="process-steps">
+      <div class="process-step">
+        <div class="step-num">1</div>
+        <h4>Ci invii il menu</h4>
+        <p>Piatti, prezzi e categorie del locale.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">2</div>
+        <h4>Creiamo la pagina</h4>
+        <p>Landing digitale con il tuo stile.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">3</div>
+        <h4>Programmiamo la carta</h4>
+        <p>Chip NFC collegato e testato.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">4</div>
+        <h4>La posizioni sul tavolo</h4>
+        <p>Il cliente tocca e visualizza.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Prezzo</span>
+      <h2>Servizio Menu Digitale</h2>
+    </div>
+    <div class="price-box">
+      <p style="color:var(--gray)">Attivazione del servizio</p>
+      <div class="amount">99€</div>
+      <div class="unit">+ 4,90€ per carta NFC · aggiornamenti menu 10€ · sconti oltre 10 carte su preventivo</div>
+      <a href="index.html#contact" class="btn-primary" style="width:100%">Richiedi preventivo</a>
+    </div>
+  </div>
+</section>
+
+<a href="https://wa.me/393474763975?text=Ciao%20Carmelo,%20vorrei%20informazioni%20sul%20Menu%20Digitale%20NFC%20per%20il%20mio%20locale." target="_blank" rel="noopener noreferrer" class="floating-contact" aria-label="Contattaci su WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor">
+    <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.78 11.66c-.2-.1-.18-.09-1.07-.54-.89-.44-1.04-.54-1.18-.74-.15-.2-.05-.3.05-.44.1-.15.25-.3.35-.45.1-.15.15-.25.2-.4.05-.15 0-.3-.05-.4-.05-.1-.45-1.08-.62-1.48-.16-.39-.33-.34-.45-.34h-.39c-.13 0-.35.05-.53.25-.18.2-.7.68-.7 1.66s.72 1.92.82 2.05c.1.15 1.41 2.15 3.42 3.02.48.21.85.33 1.14.43.48.15.92.13 1.27.08.39-.06 1.19-.49 1.36-.96.17-.47.17-.88.12-.96-.05-.08-.18-.13-.38-.23z"/>
+  </svg>
+  <span>Chatta su WhatsApp</span>
+</a>
+
+<footer>
+  <div class="footer-logo">TapNFC</div>
+  <div class="footer-contact-info">
+    <span>Carmelo Barbagallo</span>
+    <span>·</span>
+    <a href="tel:+393474763975">📞 +39 347 476 3975</a>
+    <span>·</span>
+    <a href="mailto:tagnfc.info@gmail.com">✉️ tagnfc.info@gmail.com</a>
+  </div>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="chi-siamo.html">Chi Siamo</a>
+    <a href="menu-digitale.html">Menu Digitale</a>
+    <a href="guest-wifi.html">Guest WiFi</a>
+    <a href="recensioni-google.html">Recensioni</a>
+  </div>
+  <p>&copy; 2026 TapNFC · Solarino (SR), Sicilia</p>
+</footer>
+
+<script src="shared.js" defer></script>
+</body>
+</html>
